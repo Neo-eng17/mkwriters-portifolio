@@ -1,0 +1,29 @@
+# OS and Editor Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.vscode/
+.idea/  # If using IntelliJ/WebStorm
+
+# Dependencies (if you add npm/yarn later)
+node_modules/
+package-lock.json
+
+# Build/Output Files (if you add build tools)
+dist/
+build/
+*.min.js.map  # Source maps
+
+# Large or Binary Files (exclude if too big – adjust as needed)
+*.psd  # Photoshop
+*.ai   # Illustrator
+*.pdf  # Large PDFs
+
+fonts/*.pdf  # Ignore  unrelated PDF
+img/*.psd    # Any design source files
+backups/     # If you have a backups folder
+
+# Environment Files
+.env
+*.key
